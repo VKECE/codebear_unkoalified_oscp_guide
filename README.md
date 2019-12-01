@@ -60,7 +60,7 @@ Tips:
 * Have a good nights sleep.
 * Have a doggo keep you company.
 
-![moo burrito image](https://c-o-d-e-b-e-a-r.github.io/codebear_unkoalified_oscp_guide/images/moo_burrito.jpg)
+![moo burrito image](https://c-o-d-e-b-e-a-r.github.io/codebear_unkoalified_oscp_guide/images/moo_burrito2.png)
 
 I had two attempts:
 1. I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
