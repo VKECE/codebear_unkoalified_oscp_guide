@@ -5,7 +5,7 @@ Offensive Security says "Try Harder!" I say "Try Google!".
 
 Up front I don't think you need to pay for the OSCP labs to pass the exam. 
 
-I'm going to recommend you pay for a few things but they will be cheaper that paying for even the shortest lab time. As a disclaimer I receive no payment from any of the recommendations it's just what I personnal use. 
+I'm going to recommend you pay for a few things but they will be cheaper that paying for even the shortest lab time. As a disclaimer I receive no payment from any of the recommendations it's just what I personnally use. 
 
 Hopefully you'll find this blog post short and helpful so let's get into it.
 
@@ -24,10 +24,10 @@ The latest stable [Kali Linux 64-Bit](https://www.kali.org/downloads/). If you d
 At this point I can't even remember how I started learning about VMWare but I'm sure you can Try Google!
 
 Once it's installed there are a few key tools in Kali that I used all the time:
-* Cherry Tree - This should be installed be default and I will show you how I took notes later. 
+* Cherry Tree - This should be installed by default and I will show you how I took notes later. 
 * tmux - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/). 
-* xclip - allows the user the `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`. 
-* nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The creator 21y4d created to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator). 
+* xclip - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`. 
+* nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator). 
 
 ### What to study
 
@@ -35,18 +35,18 @@ These suggestions are somewhat in order.
 
 I had no idea what to do in Linux and the tricks in the command line. Over The Wire's [Bandit](https://overthewire.org/wargames/bandit/) is awesome and it's free!
 
-[Hack The Box](https://www.hackthebox.eu/) goes without saying. This is a must, **buy a VIP subscription**. This will allow you to do the retired boxes. Then do the following:
+[Hack The Box](https://www.hackthebox.eu/)... goes without saying. **Buy a VIP subscription!** This will allow you to do the retired boxes. Then do the following:
 1. Complete the boxes compiled by tjnull which can be found [here](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159). If you want to read the blog post look [here](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html#capture-the-flag-competitions-ctfscyber-competitions). 
-2. Try the boxes in order (kind of a difficulty rating) when you get stuck then watch how [IPPSEC](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) does it and then continue on by yourself. 
+2. Try the boxes in order (kind of a difficulty rating) when you get stuck watch how [IPPSEC](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) does it and then continue on by yourself. 
 3. On each machine take notes in Cherry Tree. I used a template like the image below and then stored extra information about the machine like nmap scans or ssh keys in sub nodes. This was a suggestion from my friend [Apr4h](https://github.com/Apr4h), make sure to check out their work. 
 
 ![process image](https://c-o-d-e-b-e-a-r.github.io/codebear_unkoalified_oscp_guide/images/process.png)
 
-The buffer overflow box is just a skill you learn. justinsteven wrote a great tutorial called [dostackbufferoverflowgood](https://github.com/justinsteven/dostackbufferoverflowgood). Make sure you practically do them, you'll need a Windows VM networked in VMWare to exploit some of the examples. 
+The buffer overflow box is just a skill you learn. justinsteven wrote a great tutorial called [dostackbufferoverflowgood](https://github.com/justinsteven/dostackbufferoverflowgood). Make sure you do them and don't just read the PDF. You'll need a Windows VM networked in VMWare to exploit some of the examples. 
 
 ### What to read
 
-Google how to pass OSCP and read as many blogs as you can they will all give you references. Save them as bookmarks if you find them useful. 
+Google "how to pass OSCP" and read as many blogs as you can, they will all give you references. Save references as bookmarks if you find them useful. 
 
 Save the exploits you use in HTB and document how you used them so you can replicate it during the exam if you need to. 
 
@@ -54,8 +54,16 @@ Your own documentation will be invaluable.
 
 ### Exam
 
+Tips:
+* Eat good food.
+* Take breaks.
+* Have a good nights sleep.
+* Have a doggo keep you company.
+
+![moo burrito image](https://c-o-d-e-b-e-a-r.github.io/codebear_unkoalified_oscp_guide/images/moo_burrito.jpg)
+
 I had two attempts:
-1. The first attempt I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
+1. I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
 2. I pretty much followed the advice I'm giving here and got the buffer overflow in under 2 hours. Then I got both 20pt machines, and the 10pt machine. All of these I got root on in less then 12 hours and then had a good sleep and spent the rest of the time trying to get the 25pt machine.
 
 Get your exam ticket and book a good time for you. I started around 7am both times so I was fresh from a good nights sleep. 
@@ -69,13 +77,15 @@ There are 5 exam machines:
 
 ### Report 
 
-whoisflynn passed their exam and updated the template and passed with it. I used it and found it easy it use, check it out [here](https://github.com/whoisflynn/OSCP-Exam-Report-Template)
+whoisflynn passed their exam with an updated template. I found it easy to use, check it out on [whoisflynn's github page](https://github.com/whoisflynn/OSCP-Exam-Report-Template)
 
 ### Conclusion 
 
 So what's the final cost?
 * HTB VIP membership
 * OSCP exam ticket
-* Time, I had the goal of completing the entire list of things I listed here before doing my exam and it worked. 
+* Time. 
+
+I achieved my goal of completing what I've just listed above before doing my exam and I passed (the second time). 
 
 Don't be afriad of failing the first time either. You'll gain valuable experience and figure out your weaknesses. Plus it's much cheaper than purchasing the labs. 
