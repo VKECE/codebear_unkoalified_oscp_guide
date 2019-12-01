@@ -38,7 +38,7 @@ I had no idea what to do in Linux and the tricks in the command line. Over The W
 [Hack The Box](https://www.hackthebox.eu/) goes without saying. This is a must, **buy a VIP subscription**. This will allow you to do the retired boxes. Then do the following:
 1. Complete the boxes compiled by tjnull which can be found [here](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159). If you want to read the blog post look [here](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html#capture-the-flag-competitions-ctfscyber-competitions). 
 2. Try the boxes in order (kind of a difficulty rating) when you get stuck then watch how [IPPSEC](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) does it and then continue on by yourself. 
-3. On each machine take notes in Cherry Tree. I used a template like the image below and then stored extra information about the machine like nmap scans or ssh keys in sub nodes. This came from a suggestion from my friend [Apr4h](https://github.com/Apr4h), make sure to check out his work. 
+3. On each machine take notes in Cherry Tree. I used a template like the image below and then stored extra information about the machine like nmap scans or ssh keys in sub nodes. This was a suggestion from my friend [Apr4h](https://github.com/Apr4h), make sure to check out their work. 
 
 ![process image](https://c-o-d-e-b-e-a-r.github.io/codebear_unkoalified_oscp_guide/images/process.png)
 
