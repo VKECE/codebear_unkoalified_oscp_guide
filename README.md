@@ -85,7 +85,7 @@ whoisflynn passed their exam with an updated template. I found it easy to use, c
 
 So what's the final cost?
 * HTB VIP membership
-* OSCP exam ticket
+* Minimum OSCP lab time + exam ticket
 * Time. 
 
 I achieved my goal of completing what I've just listed above before doing my exam and I passed (the second time). 
