@@ -5,7 +5,7 @@
 
 Offensive Security says "Try Harder!" I say "Try Google!". 
 
-Up front I don't think you need to pay for the OSCP labs to pass the exam. 
+Up front I don't think you need to pay for any more than the minimum lab time to pass the exam. 
 
 I'm going to recommend you pay for a few things but they will be cheaper that paying for even the shortest lab time. As a disclaimer I receive no payment from any of the recommendations it's just what I personnally use. 
 
