@@ -11,7 +11,7 @@ I'm going to recommend you pay for a few things but they will be cheaper that pa
 
 Hopefully you'll find this blog post short and helpful so let's get into it.
 
-![koalification image](https://codebear.github.io/codebear_unkoalified_oscp_guide/images/koalifications.jpg)
+![koalification image](https://cybercodebear.github.io/codebear_unkoalified_oscp_guide/images/koalifications.jpg)
 
 ### My Background
 
@@ -42,7 +42,7 @@ I had no idea what to do in Linux and the tricks in the command line. Over The W
 2. Try the boxes in order (kind of a difficulty rating) when you get stuck watch how [IPPSEC](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) does it and then continue on by yourself. 
 3. On each machine take notes in Cherry Tree. I used a template like the image below and then stored extra information about the machine like nmap scans or ssh keys in sub nodes. This was a suggestion from my friend [Apr4h](https://github.com/Apr4h), make sure to check out their work. 
 
-![process image](https://codebear.github.io/codebear_unkoalified_oscp_guide/images/process.png)
+![process image](https://cybercodebear.github.io/codebear_unkoalified_oscp_guide/images/process.png)
 
 The buffer overflow box is just a skill you learn. justinsteven wrote a great tutorial called [dostackbufferoverflowgood](https://github.com/justinsteven/dostackbufferoverflowgood). Make sure you do them and don't just read the PDF. You'll need a Windows VM networked in VMWare to exploit some of the examples. 
 
@@ -62,7 +62,7 @@ Tips:
 * Have a good nights sleep.
 * Have a doggo keep you company.
 
-![moo burrito image](https://codebear.github.io/codebear_unkoalified_oscp_guide/images/moo_burrito2.png)
+![moo burrito image](https://cybercodebear.github.io/codebear_unkoalified_oscp_guide/images/moo_burrito2.png)
 
 I had two attempts:
 1. I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
